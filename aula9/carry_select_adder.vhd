@@ -21,10 +21,9 @@ port(a,b: in std_logic_vector(n-1 downto 0);
 	  cout: out std_logic);
 end component;
 
-component mux2 is
-port(a,b,c: in std_logic;
-		s:out std_logic);
-end component;
+--component mux2 is
+--port(a,b,c: in std_logic; s:out std_logic);
+--end component;
 
 signal carry: std_logic;
 signal cout1,cout2: std_logic;
